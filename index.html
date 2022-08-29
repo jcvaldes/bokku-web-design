@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- KEYWORDS -->
+    <meta
+      name="description"
+      content="Entre líneas es una suscripción literaria que te acerca los mejores libros a tu casa, paquetes, talleres, novedades literarias y mucho mas"
+    />
+    <meta
+      name="keywords"
+      content="libros,  lectura en casa, librería, librerías, lectura, novelas, autores reconocidos, club, literatura, club de lectura,  cuentos infantiles, ficción, no ficción, experiencias literarias, talleres, comunidad, comunidad literaria, talleres de escritura, talleres de lectura, suscripción, suscripción literaria, eventos literarios, arte, lectura, eventos, descuentos compra, descuentos talleres, experencia narrativa"
+    />
+
+    <!-- ICONO -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <!-- FONT AWESOME-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css"
+  />
+    <!-- CSS PERSONALIZADO -->
+    <link rel="stylesheet" href="assets/css/dist/styles.css" />
+
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <title>Entre Lineas</title>
+  </head>
+  <body>
+    <!-- ENCABEZADO -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./assets/img/logo-light.png" alt="Logo Entre lineas"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="pages/como-funciona.html"
+                  >¿Cómo funciona?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/experiencia.html"
+                  >Experiencias</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/libreria.html">Librería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/talleres.html">Talleres</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nav-action" href="pages/membresia.html"
+                  >Asociate</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- FIN ENCABEZADO -->
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      <section class="slider">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="mx-4">
+                    <img
+                      class="carousel-img"
+                      src="assets/img/portada.jpg"
+                      alt="Libro más vendidos"
+                    />
+                  </div>
+                  <div>
+                    <h2>Hello the graphics Designer!</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Expedita saepe neque officia distinctio aliquam itaque
+                      eveniet possimus illum fugiat, quasi earum eos nam
+                      similique. Iste reprehenderit cum tenetur tempore aliquam?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="mx-4">
+                    <img
+                      class="carousel-img"
+                      src="assets/img/d.jpg"
+                      alt="Libro más vendidos"
+                    />
+                  </div>
+                  <div>
+                    <h2>Hello the Web Developer!</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Expedita saepe neque officia distinctio aliquam itaque
+                      eveniet possimus illum fugiat, quasi earum eos nam
+                      similique. Iste reprehenderit cum tenetur tempore aliquam?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <i class="fas fa-chevron-left text-danger fa-2x"></i>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <i class="fas fa-chevron-right text-danger fa-2x"></i>
+          </button>
+        </div>
+      </section>
+
+      <section class="library my-5">
+        <div class="container">
+          <h2 class="heading wow fadeIn">Libros recomendados</h2>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <article class="card wow fadeInLeft" data-wow-delay="0.2s" daata>
+                <img
+                  src="assets/img/libros-recomendados/pantalones-azules-sara-gallardo.webp"
+                  alt="pantalones azules de sara gallardo"
+
+                />
+                <div class="card-body">
+                  <h3 class="card-heading">Pantalones azules</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aperiam ea tempore quisquam odio laboriosam debitis quis
+                    dolore omnis itaque perferendis. Saepe, veritatis
+                    perferendis? Quia, expedita? Labore expedita perspiciatis
+                    atque accusamus!
+                  </p>
+                  <button class="btn-brand">Comprar</button>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-md-4">
+              <article class="card wow fadeInDown" data-wow-delay="0.4s">
+                <img
+                  src="assets/img/libros-recomendados/stoner-john-williams.webp"
+                  alt="Libro recomendado"
+                />
+                <div class="card-body">
+                  <h3 class="card-heading">Stoner</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aperiam ea tempore quisquam odio laboriosam debitis quis
+                    dolore omnis itaque perferendis. Saepe, veritatis
+                    perferendis? Quia, expedita? Labore expedita perspiciatis
+                    atque accusamus!
+                  </p>
+                  <button class="btn-brand">Comprar</button>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-md-4">
+              <article class="card wow fadeInRight" data-wow-delay="0.6s">
+                <img
+                  src="assets/img/libros-recomendados/un-cuarto-propio-virginia-woolf.webp"
+                  alt="Libro recomendado"
+                />
+                <div class="card-body">
+                  <h3 class="card-heading">Un cuarto propio</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aperiam ea tempore quisquam odio laboriosam debitis quis
+                    dolore omnis itaque perferendis. Saepe, veritatis
+                    perferendis? Quia, expedita? Labore expedita perspiciatis
+                    atque accusamus!
+                  </p>
+                  <button class="btn-brand">Comprar</button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FIN LIBRERIA -->
+
+      <!-- EXPERIENCIAS -->
+      <section class="experiences my-5 wow fadeInUp" >
+        <div class="container">
+          <h2 class="heading">Experiencias</h2>
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <article class="card">
+                <img
+                  src="assets/img/experiencias/exp-infantil.webp"
+                  alt="ilustración sobre la experiencia"
+                  loading="lazy"
+                />
+                <div class="card-body">
+                  <h3 class="card-heading">Pack infantil</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    error temporibus sapiente, deserunt a magnam atque ut
+                    officiis, ab sit esse dolore? Neque ducimus hic saepe qui ad
+                    inventore aliquid.
+                  </p>
+
+                  <button class="btn-brand" href="./pages/experiencia.html">
+                    Ver más
+                  </button>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-3">
+              <article class="card">
+                <img
+                  src="assets/img/experiencias/exp-ficcion.webp"
+                  alt="experiencia ficción"
+                  loading="lazy"
+                />
+                <div class="card-body">
+                  <h3 class="card-heading">Pack ficción</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    error temporibus sapiente, deserunt a magnam atque ut
+                    officiis, ab sit esse dolore? Neque ducimus hic saepe qui ad
+                    inventore aliquid.
+                  </p>
+
+                  <button class="btn-brand" href="./pages/experiencia.html">
+                    Ver más
+                  </button>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-3">
+              <article class="card">
+                <img
+                  src="assets/img/experiencias/exp-noficcion.webp"
+                  alt="ilustración sobre la experiencia"
+                  loading="lazy"
+                />
+                <div class="card-body">
+                  <h3 class="card-heading">No ficción</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    error temporibus sapiente, deserunt a magnam atque ut
+                    officiis, ab sit esse dolore? Neque ducimus hic saepe qui ad
+                    inventore aliquid.
+                  </p>
+
+                  <button class="btn-brand" href="./pages/experiencia.html">Ver más</a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-3">
+              <article class="card">
+                <img
+                  src="assets/img/experiencias/exp-ficcion.webp"
+                  alt="ilustración sobre la experiencia"
+                  loading="lazy"
+                />
+                <div class="card-body">
+                  <h3 class="card-heading">Armá tu experiencia</h3>
+                  <p>
+                    Hay tantos lectores como experiencias. ¡Qué nadie te limite!
+                    Libro a elección+ Taller a elección + Regalo
+                  </p>
+                  <button class="btn-brand" href="./pages/experiencia.html">Ver más</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FIN EXPERIENCIAS -->
+    </main>
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="footer-top footer-top-5 d-block d-sm-flex justify-content-between align-items-center"
+            >
+              <div class="footer-logo">
+                <a href="index-6.html#"
+                  ><img src="./assets/img/logo-light.png" alt=""
+                /></a>
+              </div>
+              <div class="footer-social">
+                <ul>
+                  <li>
+                    <a href="index-6.html#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="index-6.html#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="index-6.html#"><i class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="index-6.html#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-item">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-about mt-30">
+                <h4 class="title">Compañia</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores hic expedita voluptatibus veritatis esse cupiditate
+                  quasi, quia doloribus eveniet
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-list footer-list-5 mt-30 ml-95">
+                <h4 class="title">Links</h4>
+                <ul>
+                  <li><a href="pricing.html">Membresías</a></li>
+                  <li><a href="experiences.html">Experiencias</a></li>
+                  <li><a href="library.html">Librería</a></li>
+                  <li><a href="workshops.html">Talleres</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-list footer-list-5 mt-30">
+                <h4 class="title">Categorias</h4>
+                <ul>
+                  <li><a href="#">Libros</a></li>
+                  <li><a href="#">Talleres</a></li>
+                  <li><a href="#">Políticas de Privacidad</a></li>
+                  <li><a href="contact.html">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info footer-info-5 mt-30">
+                <h3 class="title">Ubicación</h3>
+                <ul>
+                  <li>
+                    <i class="fal fa-map-marker-alt"></i> Lavalle 1200, CABA,
+                    ARGENTINA
+                  </li>
+                  <li><i class="fal fa-phone"></i> +00 125 456 888</li>
+                  <li><i class="fal fa-envelope"></i> contact@bukku.com</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer-copyright">
+              <p>Copyright @ 2022. Design by Magali Haberman</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="assets/js/dist/main.min.js"></script>
+    <script>
+      const wow = new WOW()
+      wow.init()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+// Configuration and helpers
+@import 'abstracts/variables';
+@import 'abstracts/listas';
+@import 'abstracts/media-queries';
+@import 'abstracts/mixins';
+
+// vendors
+@import 'vendor/bootstrap/scss/bootstrap';
+@import 'vendor/animate.css/animate.css';
+
+// Base stuff
+@import 'base/fonts';
+
+// Components
+@import 'components/headings';
+@import 'components/buttons';
+@import 'components/card';
+@import 'components/carousel';
+@import 'components/accordion';
+// layout
+// @import 'layout/content';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/footer';
+
+// @import 'layout/content';
+
+// // pages
+// @import 'pages/home';

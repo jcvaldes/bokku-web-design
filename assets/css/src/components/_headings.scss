@@ -1,0 +1,19 @@
+.heading {
+  font-family: $open-font;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 2.4rem;
+  margin-bottom: 1em;
+  color: $secondary-color;
+  display: inline-block;
+  height: 50px;
+  box-shadow: 0 29px 0 -23px $secondary-color;
+}
+.card-heading {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.6rem;
+  margin: 20px 0;
+}

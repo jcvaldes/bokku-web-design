@@ -1,0 +1,7 @@
+body {
+  font-family: $open-font;
+  @debug 'font #{$open-font} ';
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+/* ENCABEZADO CON GRADIANTE*/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: linear-gradient(
+    to right,
+    nth($list: $colores, $n: 10),
+    nth($list: $colores, $n: 9)
+  );
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
