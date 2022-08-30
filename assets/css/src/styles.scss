@@ -19,8 +19,10 @@
 @import 'components/card';
 @import 'components/carousel';
 @import 'components/accordion';
+@import 'components/form';
+
 // layout
-// @import 'layout/content';
+@import 'layout/content';
 @import 'layout/header';
 @import 'layout/nav';
 @import 'layout/footer';
@@ -28,4 +30,4 @@
 // @import 'layout/content';
 
 // // pages
-// @import 'pages/home';
+@import 'pages/beneficios';

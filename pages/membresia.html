@@ -66,18 +66,16 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/experiencia.html"
-                  >Experiencias</a
-                >
+                <a class="nav-link" href="./experiencia.html">Experiencias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/libreria.html">Librería</a>
+                <a class="nav-link" href="./libreria.html">Librería</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/talleres.html">Talleres</a>
+                <a class="nav-link" href="./talleres.html">Talleres</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-action" href="pages/membresia.html"
+                <a class="nav-link nav-action" href="./membresia.html"
                   >Asociate</a
                 >
               </li>
@@ -90,67 +88,102 @@
 
     <!-- CONTENIDO PRINCIPAL -->
     <main>
-      <section class="contact-us-area contact-us-page mt-5">
+      <section class="mt-5">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10">
-              <div class="contact-us-box">
-                <h3 class="heading">Envíanos Tu Consulta</h3>
-                <p>
-                  Tu consulta es muy importante para nosotros, te responderemos
-                  <br />
-                  a la brevedad posible.
-                </p>
-                <form action="contact.html#">
-                  <div class="row no-gutters">
-                    <div class="col-lg-6">
-                      <div class="input-box mt-10">
-                        <input type="text" placeholder="Tu nombre" />
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="input-box mt-10">
-                        <input type="email" placeholder="Dirección de email" />
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="input-box mt-10">
-                        <input type="text" placeholder="Whatsapp ó teléfono" />
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="input-box mt-10">
-                        <input type="text" placeholder="Asunto" />
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="input-box mt-10">
-                        <textarea
-                          name="#"
-                          id="#"
-                          cols="30"
-                          rows="10"
-                          placeholder="Escribe tu mensaje aquí"
-                        ></textarea>
-                      </div>
-                      <ul class="checkbox_common checkbox_style5">
-                        <li>
-                          <input
-                            type="checkbox"
-                            name="checkbox5"
-                            id="checkbox13"
-                          />
-                        </li>
-                      </ul>
-                      <div class="input-box">
-                        <button class="main-btn" type="submit">Envíar</button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+          <h2 class="heading">Subscripción</h2>
+          <h4 class="muted">Completá el formulario y serás parte de Entre líneas.</h2></p>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputName" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputLastname" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="inputLastname" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputPhone" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="inputPhone" />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress1" class="form-label">Dirección 1</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress1"
+                placeholder="Casa, departamento"
+              />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Dirección 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder="Casa, departamento"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Estado</label>
+              <select id="inputState" class="form-select">
+                <option selected>Elegir...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Código Postal</label>
+              <input type="text" class="form-control" id="inputZip" />
+            </div>
+            <div class="col-md-6">
+              <label for="typeSubscription" class="form-label"
+                >Tipo de suscripción</label
+              >
+              <select id="typeSubscription" class="form-select">
+                <option selected>Elegir...</option>
+                <option value="Infantil">Infantil</option>
+                <option value="Ficcion">Ficcion</option>
+                <option value="No Ficcion">No Ficción</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="typeSubscription" class="form-label">Intereses</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label" for="gridCheck">
+                  Narrativa
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label" for="gridCheck">
+                  Ciencia ficción
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label" for="gridCheck"> Poesía </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label" for="gridCheck">
+                  Literatura
+                </label>
               </div>
             </div>
-          </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Subscribir</button>
+            </div>
+          </form>
         </div>
       </section>
     </main>
